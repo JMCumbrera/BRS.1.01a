@@ -28,22 +28,22 @@
                   feedback-link="https://github.com/JMCumbrera">
     
       <google-codelab-step label="Configurar una contraseña de administración de la BIOS" duration="10">
-        <p>Una contraseña de administración de la BIOS nos permitirá mantener a salvo los parámetros de esta, a fin de evitar que cualquier usuario no autorizado los modifique. Tendremos en cuenta que estos pasos que seguiremos se han escrito teniendo en cuenta un ordenador de marca ASUS.</p>
+        <p>Una contraseña de administración de la BIOS nos permitirá mantener a salvo los parámetros de esta, a fin de evitar que cualquier usuario no autorizado los modifique. Tendremos en cuenta que estos pasos que seguiremos se han escrito teniendo en cuenta un ordenador de marca y modelo <strong><em>ASUS ROG Strix G512LI</em></strong>.</p>
 <ol type="1">
 <li>Enciende tu PC o reinícialo, y durante el proceso de inicio debes presionar la tecla &#34;F2&#34; hasta que la BIOS aparezca.</li>
 <li>Una vez dentro de la BIOS, navega hasta el apartado de acceso (<em>Access</em>). Allí verás que en la primera pestaña (<em>Administrator Password</em>), podrás establecer la contraseña de administración de la BIOS.</li>
 </ol>
 <p class="image-container"><img alt="Menú principal de la BIOS" src="img\\5cebbb0ffc495bd6.png"></p>
 <ol type="1" start="3">
-<li>Haz clic de la susodicha pestaña y crea una contraseña. No olvides tener en cuenta la seguridad a la hora de hacerlo, incluyendo letras mayúsculas, letras minúsculas, números y caracteres.</li>
+<li>Haz clic en la susodicha pestaña y crea una contraseña. No olvides tener en cuenta la seguridad a la hora de hacerlo, incluyendo letras mayúsculas, letras minúsculas, números y caracteres.</li>
 </ol>
 <p class="image-container"><img alt="Pantalla de cambio de contraseña" src="img\\fdbc5d0560f71e66.png"></p>
 
 
       </google-codelab-step>
     
-      <google-codelab-step label="Configurar una contraseña de usuario de la BIOS" duration="6">
-        <p>La contraseña que estableceremos a continuación posee la utilidad de proteger que un usuario no autorizado pueda modificar los parámetros básicos de la BIOS. En el caso particular de un equipo de marca y modelo ASUS ROG Strix G512LI, esta contraseña funciona también como contraseña de arranque, mostrándose al arrancar, o al tratar de acceder a la BIOS. Para ello seguiremos los pasos descritos a continuación:</p>
+      <google-codelab-step label="Configurar una contraseña de usuario de la BIOS y una contraseña de arranque" duration="6">
+        <p>La contraseña que estableceremos a continuación posee la utilidad de evitar que un usuario no autorizado pueda modificar los parámetros básicos de la BIOS. En el caso particular de nuestro equipo, esta contraseña funciona también como contraseña de arranque, mostrándose al arrancar, o al tratar de acceder a la BIOS. Para ello seguiremos los pasos descritos a continuación:</p>
 <ol type="1">
 <li>Enciende tu PC o reinícialo, y durante el proceso de inicio debes presionar la tecla &#34;F2&#34; hasta que la BIOS aparezca. Este paso es idéntico al de la sección anterior.</li>
 <li>Una vez dentro de la BIOS, navega hasta el apartado de acceso (<em>Access</em>). Allí verás que en la segunda pestaña (<em>User Password</em>), podrás establecer la contraseña de usuario de la BIOS.</li>
@@ -61,7 +61,7 @@
         <p>Duration 0:10:00</p>
 <p>Para aumentar la seguridad del sistema, se deshabilitará el permiso de arranque desde dispositivos USB. En el caso de un portátil de marca y modelo ASUS ROG Strix G512LI, se desactivarán los puertos USB directamente. Para ello seguiremos los pasos siguientes, en los que se tendrá en cuenta estar ya en el menú de la BIOS:</p>
 <ol type="1">
-<li>Haremos clic en la tecla F7, para acceder al modo avanzado de la BIOS (<em>Advanced Mode</em>).</li>
+<li>Haremos clic en la tecla &#34;F7&#34; para acceder al modo avanzado de la BIOS (<em>Advanced Mode</em>).</li>
 </ol>
 <p class="image-container"><img alt="Modo avanzado de la BIOS" src="img\\73aa7bbf92a59b3a.png"></p>
 <ol type="1" start="2">
@@ -73,28 +73,29 @@
 </ol>
 <p class="image-container"><img alt="Interfaz de seguridad del modo avanzado de la BIOS" src="img\\5dce3acd04104a4e.png"></p>
 <ol type="1" start="4">
-<li>Finalmente, cambiaremos el estado de &#34;<em>Externak Ports</em>&#34; de &#34;<em>UnLock</em>&#34; a &#34;<em>Lock</em>&#34;.</li>
+<li>Finalmente, cambiaremos el estado de &#34;<em>External Ports</em>&#34; de &#34;<em>UnLock</em>&#34; a &#34;<em>Lock</em>&#34;.</li>
 </ol>
-<p class="image-container"><img src="img\\9da67699fdf3eb17.png"></p>
+<p class="image-container"><img alt="Configuración de puertos externos o USB" src="img\\9da67699fdf3eb17.png"></p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Establecer un orden de arranque" duration="8">
-        <p>A través del orden de arranque, podremos establecer qué dispositivos en un sistema tiene prioridad en el arranque, buscando arrancar el segundo dispositivo de la susodicha lista, si no se encontrase el primero, y así sucesivamente. Para poder modificar este parámetro accederemos a la BIOS del ordenador, y allí seguiremos los pasos siguientes:</p>
+        <p>A través del orden de arranque podremos establecer qué dispositivos en un sistema tienen prioridad en el arranque, buscando arrancar el segundo dispositivo de la susodicha lista si no se encontrase el primero, y así sucesivamente. Para poder modificar este parámetro accederemos a la BIOS del ordenador, y allí seguiremos los pasos siguientes:</p>
 <ol type="1">
-<li>Haremos clic en la tecla F7, para acceder al modo avanzado de la BIOS (<em>Advanced Mode</em>).</li>
+<li>Haremos clic en la tecla &#34;F7&#34; para acceder al modo avanzado de la BIOS (<em>Advanced Mode</em>).</li>
 </ol>
 <p><img alt="Modo avanzado de la BIOS" src="img\\73aa7bbf92a59b3a.png"> 2. Navegaremos hasta la pestaña &#34;<em>Boot</em>&#34;, donde alteraremos el orden de arranque como deseemos.</p>
 <p class="image-container"><img alt="Pestaña BOOT en el modo avanzado de la BIOS" src="img\\1551550b5264017f.png"></p>
+<p>Como podemos ver, en nuestro caso sólo existe un disco, por tanto no será necesario modificar dicho orden.</p>
 
 
       </google-codelab-step>
     
       <google-codelab-step label="Activar el Secure Boot" duration="6">
-        <p>El <em>Secure Boot</em> es una opción en los sistemas Windows iguales o superiores a la Windows 8, que permite denegar la ejecución de software sin firmar, y en general, de cualquier programa ajeno a Windows. Si queremos activar esta opción, deberemos entrar en el menú de la BIOS y seguir los pasos que se describirán a continuación:</p>
+        <p>El <em>Secure Boot</em> es una opción en los sistemas Windows iguales o superiores a Windows 8, que permite denegar la ejecución de software sin firmar, y en general, de cualquier programa ajeno a Windows. Si queremos activar esta opción, deberemos entrar en el menú de la BIOS y seguir los pasos que se describirán a continuación:</p>
 <ol type="1">
-<li>Haremos clic en la tecla F7, para acceder al modo avanzado de la BIOS (<em>Advanced Mode</em>).</li>
+<li>Haremos clic en la tecla &#34;F7&#34; para acceder al modo avanzado de la BIOS (<em>Advanced Mode</em>).</li>
 </ol>
 <p class="image-container"><img alt="Modo avanzado de la BIOS" src="img\\73aa7bbf92a59b3a.png"></p>
 <ol type="1" start="2">
@@ -102,7 +103,7 @@
 </ol>
 <p class="image-container"><img alt="Pestaña de seguridad del modo avanzado de la BIOS" src="img\\bbb1bcddadb90d0a.png"></p>
 <ol type="1" start="3">
-<li>Una vez allí, activaremos la opción en cuestión (<em>Secure Boot</em>).</li>
+<li>Una vez allí activaremos la opción en cuestión (<em>Secure Boot</em>).</li>
 </ol>
 <p class="image-container"><img alt="Secure Boot" src="img\\3ce77a8bbdd3fef2.png"></p>
 
@@ -117,10 +118,10 @@
 </ol>
 <p class="image-container"><img alt="Ejecutar" src="img\\ca18506ac2525e20.png"></p>
 <ol type="1" start="2">
-<li>Nos fijaremos en los elementos &#34;<em>Estado de arranque seguro</em>&#34; y &#34;<em>Compatibilidad con cifrado de dispositivo</em>&#34;.</li>
+<li>Nos fijaremos en los elementos &#34;<em>Estado de arranque seguro</em>&#34; y &#34;<em>Compatibilidad con cifrado de dispositivo</em>&#34;. Estos nos permitirán saber si nuestro equipo dispone del chip TPM y si tiene activado el estado de arranque seguro.</li>
 </ol>
-<p class="image-container"><img src="img\\8f79c4dfe93d0851.png"></p>
-<p class="image-container"><img src="img\\2e55c6c33b2872d6.png"></p>
+<p class="image-container"><img alt="Elemento estado de arranque seguro" src="img\\8f79c4dfe93d0851.png"></p>
+<p class="image-container"><img alt="Elemento compatibilidad con cifrado de dispositivo" src="img\\2e55c6c33b2872d6.png"></p>
 
 
       </google-codelab-step>
