@@ -8,6 +8,6 @@
 
 **Organización:** *IES "Rafael Alberti"*
 
-**Curso:** *CIBER*
+**Curso:** *CIBER 2023/2024*
 
 **Fecha:** *19/10/2023*
